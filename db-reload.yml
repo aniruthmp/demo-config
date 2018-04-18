@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/db_1
     username: springuser
-    password: ThePassword
+    password: NewThePassword
   jpa:
     hibernate:
       ddl-auto: create
@@ -17,4 +17,4 @@ management:
     enabled-by-default: true
     web:
       exposure:
-        include: refresh    
+        include: refresh
