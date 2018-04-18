@@ -7,7 +7,7 @@ spring:
     hibernate:
       ddl-auto: create
 
-management.security.enabled: true
+management.security.enabled: false
 
 # management:
 #   endpoint:
