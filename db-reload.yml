@@ -7,13 +7,13 @@ spring:
     hibernate:
       ddl-auto: create
 
-management.security.enabled: false
+# management.security.enabled: false
 
-# management:
-#   endpoint:
-#     refresh:
-#       enabled: true
-#     env:
-#       enabled: true
-#   endpoints:
-#     enabled-by-default: true
+management:
+  endpoint:
+    refresh:
+      enabled: true
+    env:
+      enabled: true
+  endpoints:
+    enabled-by-default: true
