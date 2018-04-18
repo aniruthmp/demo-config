@@ -11,10 +11,10 @@ spring:
 
 management:
   endpoint:
-    web:
-      exposure:
-        include: refresh
     env:
       enabled: true
   endpoints:
     enabled-by-default: true
+    web:
+      exposure:
+        include: refresh    
