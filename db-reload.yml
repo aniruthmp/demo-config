@@ -11,8 +11,9 @@ spring:
 
 management:
   endpoint:
-    refresh:
-      enabled: true
+    web:
+      exposure:
+        include: '*'
     env:
       enabled: true
   endpoints:
