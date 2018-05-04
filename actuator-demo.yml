@@ -14,4 +14,4 @@ management:
       exposure:
         include: "*"
 
-welcome.message: "Hello Learn Day [Git] !! "
+welcome.message: "May the 4th be with you !! "
