@@ -12,6 +12,6 @@ management:
     enabled-by-default: true
     web:
       exposure:
-        include: refresh
+        include: "*"
 
 welcome.message: "Hello Learn Day [Git] !! "
